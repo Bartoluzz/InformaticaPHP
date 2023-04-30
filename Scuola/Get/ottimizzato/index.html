@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>get ottimizzato</title>
+</head>
+
+<body>
+    <form action="index.php" method="post">
+        <h3 style="text-align: center" > La Tua Vacanza</h3>
+
+        Nome : <input type="text" name="nome"><br>
+        Cognome :  <input type="text" name="cognome"><br>
+        
+        <br>
+
+        <input type="radio" name="place" value="Mare" checked>Mare
+        <input type="radio" name="place" value="Montagna" >Montagna
+
+        <br><br><br>
+
+        Scegli il mese : <br><br>
+        Giugno<input type="checkbox" name="mese[]" value="Giugno" checked><br>
+        Luglio<input type="checkbox" name="mese[]" value="Luglio" ><br>
+        Agosto<input type="checkbox" name="mese[]" value="Agosto" ><br>
+        Settembre<input type="checkbox" name="mese[]" value="Settembre" ><br>
+
+        <br><br>
+
+        <textarea rows="5" cols="20" name="citazione" >Inserisci una citazione
+        </textarea>
+
+        <br><br>
+
+        Scegli una regione :       <br> 
+        <select name="regioni[]" size="4" multiple>
+            <option value="Sicilia"  >  Sicilia   </option>
+            <option value="Puglia"   >  Puglia    </option>   
+            <option value="Toscana"  >  Toscana   </option>   
+            <option value="Calabria" >  Calabria  </option>       
+        </select>
+
+        <br><br>
+
+        <input type="submit" value="Invia">
+        <input type="reset" value="Reset">
+
+    </form>
+    </body>
+</html>

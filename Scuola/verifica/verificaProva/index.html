@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+    </head>
+    <body>
+        <form action="index.php" method="post">
+            
+            <!-- input text  area  -->
+            Nome: <input type="text" name="Nome">
+            Cognome: <input type="text" name="Cognome">
+
+            <br><br>
+
+            <!-- dropdown menu  -->
+            <select name="classi" size="6"multiple>
+                <option value="a">a</option>
+                <option value="b">b</option>
+                <option value="c">c</option>
+                <option value="d">d</option>
+                <option value="e">e</option>
+                <option value="f">f</option>
+            </select>
+
+            <br><br>
+
+            <!-- corsi -->
+            <input type="checkbox" name="corso[]" value="Inglese">Inglese</input>
+            <input type="checkbox" name="corso[]" value="Robotica">Robotica</input>
+            <input type="checkbox" name="corso[]" value="Francese">Francese</input>
+            <input type="checkbox" name="corso[]" value="Antincendio">Antincendio</input>
+            <input type="checkbox" name="corso[]" value="Primo Soccorso">Primo Soccorso</input>
+
+
+            <br><br>
+
+            <input type="submit" value="invia">
+            <input type="reset" value="reset">
+
+        </form>
+    </body>
+</html>

@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset='ISO-8859-1'>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+    </head>
+    <body>
+        <h1>Quali attrazioni turistiche ?</h1><br>
+
+        <form action="index.php" method="post">
+            Nome: <input type="text" name="nome"> Cognome: <input type="text" name="cognome"><br>
+            Citt&#225;: <input type="text" name="city"> Giorno: <input type="number" name="giorno"> Mese:
+            <select name="mese" >
+                <option value="gennaio">gennaio</option>
+                <option value="febbraio">febbraio</option>
+                <option value="marzo">marzo</option>
+                <option value="aprile">aprile</option>
+                <option value="maggio">maggio</option>
+                <option value="giugno">giugno</option>
+                <option value="luglio">luglio</option>
+                <option value="agosto">agosto</option>
+                <option value="settembre">settembre</option>
+                <option value="ottombre">ottobre</option>
+                <option value="novembre">novembre</option>
+                <option value="dicembre">dicembre</option>
+            </select>
+            <br><br><br>
+    
+            Scegliere le attrazioni turistiche visitate : <br>
+
+
+            <br><input type="checkbox" name="attrazioni[]" value="Palazzi">Palazzi</input>
+            <br><input type="checkbox" name="attrazioni[]" value="Chiesa">Chiese</input>
+            <br><input type="checkbox" name="attrazioni[]" value="Musei">Musei</input>
+            <br><input type="checkbox" name="attrazioni[]" value="Parchi">Parchi</input>
+            <br><input type="checkbox" name="attrazioni[]" value="Castelli">Castelli</input>
+            <br><input type="checkbox" name="attrazioni[]" value="Zoo">Zoo</input>
+            
+            <br><br>
+
+            <input type="submit" value="invia" style="position: absolute ; left: 5px;">
+            <input type="reset" value="Reset" style="position: absolute; right: 5px;">
+
+        </form>
+
+
+
+    </body>
+</html>
