@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<body>
+<form method="POST" action="accedi.php">
+<fieldset>
+<legend>Accedi:</legend>
+<table>
+<tr>
+<td><label for="username">Nome: </label></td>
+<td>
+<input type="text" name="username" id="username" autofocus required size="50" />
+</td>
+</tr>
+<tr>
+<td><label for="password">Password: </label> </td>
+<td><input type="password" name="password" id="password" required size="50" /></td>
+</tr>
+</table>
+<input type="submit" value="Invia">
+</fieldset>
+</form>   
+Non sei registrato?
+<button onclick="window.open('registrati.php');">
+  Registrati
+</button>     
+</body>
+</html>
